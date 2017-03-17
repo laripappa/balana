@@ -15,3 +15,24 @@ This is WSO2 Balana, Then Open source XACML implemantation which supports XACML 
 [1] http://sunxacml.sourceforge.net/
 [2] http://sunxacml.sourceforge.net/license.txt
 [3] http://www.apache.org/licenses/LICENSE-2.0
+
+
+# How to USE
+At first, you have to install maven.
+When you can use Homebrew in balana diretiory, you should run the command below.
+```
+brew install maven
+mvn
+```
+And then, it's okay to run commands below,
+```
+mvn test && mvn package && mvn install && mvn compile
+```
+
+Next, you change directory from balana directory to sample directory
+```
+chomod +x ./run.sh
+./run.sh
+```
+
+In case of failure about Java, you should set the alias for $JAVA_HOME at ```~/.bashrc``` or ```~/.zshenv``` etc.
