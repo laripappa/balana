@@ -19,12 +19,12 @@ This is WSO2 Balana, Then Open source XACML implemantation which supports XACML 
 
 # How to USE
 At first, you have to install maven.
-When you can use Homebrew in balana diretiory, you should run the command below.
+When you can use Homebrew in balana directory, you should run the command below.
 ```
 brew install maven
 mvn
 ```
-And then, it's okay to run commands below,
+And then, run the commands below,
 ```
 mvn test && mvn package && mvn install && mvn compile
 ```
